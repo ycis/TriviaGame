@@ -1,0 +1,47 @@
+body {
+    background: url("../images/seamless-brick-wall-pattern-1139.png");
+}
+
+.form-labels {
+    background-color: black;
+    color: white;
+    margin-bottom: 10px;
+}
+
+#title-image {
+    font-family: fantasy;
+    font-size: 35px;    
+    position: relative;
+    text-align: center;
+    color: white;
+    margin-bottom: 40px;
+}
+.top-left {
+    font-size: 25px;    
+    position: absolute;
+    top: 2px;
+    left: 65px;
+}
+
+.bottom-right {
+    position: absolute;
+    bottom: -30px;
+    right: 16px;
+}
+
+#progressBar {
+    width: 90%;
+    margin: 10px auto;
+    height: 22px;
+    background-color: #0A5F44;
+  }
+
+#progressBar div {
+    height: 100%;
+    text-align: right;
+    padding: 0 10px;
+    line-height: 22px; /* same as #progressBar height if we want text middle aligned */
+    width: 0;
+    background-color: #CBEA00;
+    box-sizing: border-box;
+  }
